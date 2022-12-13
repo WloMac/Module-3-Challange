@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 body{
     margin: 0;
     padding: 0;
@@ -17,50 +20,18 @@ body{
    margin-top: 45vh;
 }
 
-.page-wrapper{
-    margin: 0px 5%;
-    display: grid;
-    grid-template-rows: auto;
-    grid-template-columns: 1fr 2fr;
-    grid-template-areas:
-    "about aboutdetails"
-    "work projects"   
-    "skills skillsdetails" 
-    "contact contactdetails"
-}
-
-#about{
-    grid-area: about;
-  }
-
-#aboutdetails{
-    grid-area: aboutdetails;
-  }
-#work{
-    grid-area: work;
-  }
-  
-#projects{
-    grid-area: projects;    
-  }
-#skills{
-    grid-area: skills;    
-}
-  
-#skillsdetails{
-    grid-area: skillsdetails;    
-  }
-  
-  #contact{
-    grid-area: contact;
-  }
-  
-  #contactdetails{
-    grid-area: contactdetails;
-  }
-
-  .cardcopy{
-    display: inline-block;
-    margin: 10px;
+h2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
     
-  }
+}
+.small-logo{
+    display: inline;
+    height: 50px;
+    width: auto;
+}
+h3{
+    display: inline-block;
+}
+
