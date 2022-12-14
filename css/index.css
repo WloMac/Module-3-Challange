@@ -21,10 +21,9 @@ body{
 }
 
 h2{
-    display: flex;
-    justify-content: center;
+    position: relative;
     text-align: center;
-    
+         
 }
 .small-logo{
     display: inline;
@@ -34,4 +33,21 @@ h2{
 h3{
     display: inline-block;
 }
-
+.cardcopy{
+    width: 100px;  
+    height: 200px; 
+    background-color: rgba(0,0,255,0.1);
+    border: 5px black;
+   
+}
+h5{
+    background-color: rgba(0, 0, 0, 0.670);
+    
+}
+p{
+    background-color: rgba(0, 0, 0, 0.670);
+        
+}
+.card:hover{
+    box-shadow: 10px black;
+}
