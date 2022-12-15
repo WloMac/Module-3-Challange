@@ -14,11 +14,9 @@
 <body>
     <header>                                                          
     <div class="jumbotron jumbotroncopy">
-        <h1>Wlodzimierz Maciaszczyk</h1>
+        <h1>Włodzimierz Maciaszczyk</h1>
+        <h1>Web Dev_|</h1>
         <ul class="nav nav-pills navbarcopy">
-        <!-- <li class="nav-item">
-        <a class="nav-link active" href="#"><button type="button" class="btn btn-secondary">Active</button></a>
-        </li> -->
             <li class="nav-item">
                 <a class="nav-link" href="#about"><button type="button" class="btn btn-secondary">#About Me</button></a>   
                              
@@ -28,7 +26,7 @@
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#skills"><button type="button" class="btn btn-secondary">#Skills</button></a>
-        <!-- <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a> -->
+        
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#contact"><button type="button" class="btn btn-secondary">#Contact Me</button></a>
@@ -40,36 +38,36 @@
     
     <main>
     <!-- CARDS -->
-    <div class="row">
-        <div class="col-md-3">
-        <h2>#About Me</h2>
+    <div class="row p-5">
+        <div class="col-md-3 d-flex align-items-center justify-content-center ">
+        <h2 id="about">#About Me</h2>
         </div>
         <div class="col-md-9">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum cupiditate aut voluptatum aspernatur impedit rerum aliquid repudiandae accusamus eligendi assumenda.
         </div>
     </div>
-    <div class="row">
-        <div class="col-md-3">
-        <span class="align-text-bottom"><h2>#My Work</h2>
+    <div class="row p-5">
+        <div class="col-md-3 d-flex align-items-center justify-content-center">
+        <h2 id="work">#My Work</h2>
         </div>
-        <div class="col-md-9">
+        <div class="col-md-9 " >
             <div class="card-deck">
-                <div class="card">
-                  <img src="./images/portfolio-1.jpg" class="card-img-top" alt="...">
+                <div class="card cardcopy">
+                  <img src="./images/portfolio-1.jpg" class="card-img" alt="...">
                   <div class="card-img-overlay">
                     <h5 class="card-title text-center">Project 1</h5>
-                    <p class="card-text text-center">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, eligendi eos impedit nemo voluptas ratione.</p>
                   </div>
                 </div>
-                <div class="card">
-                  <img src="./images/portfolio-2.jpg" class="card-img-top" alt="...">
+                <div class="card cardcopy">
+                  <img src="./images/portfolio-2.jpg" class="card-img" alt="...">
                   <div class="card-img-overlay">
                     <h5 class="card-title text-center">Project 2</h5>
                     <p class="card-text text-center">This card has supporting text below as a natural lead-in to additional content.</p>
                   </div>
                 </div>
-                <div class="card">
-                  <img src="./images/portfolio-3.jpg" class="card-img-top" alt="...">
+                <div class="card cardcopy">
+                  <img src="./images/portfolio-3.jpg" class="card-img" alt="...">
                   <div class="card-img-overlay">
                     <h5 class="card-title text-center">Project 3</h5>
                     <p class="card-text text-center">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
@@ -79,35 +77,11 @@
               </div>
     </div>
     </div>
-            <!-- <div class="card" style="width: 18rem;">
-                <img src="./images/portfolio-1.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-            </div>
+    <div class="row p-5">
+        <div class="col-md-3 d-flex align-items-center justify-content-center">
+        <h2 id="skills">#Skills</h2>
         </div>
-        <div class="col-md-3">
-            <div class="card" style="width: 18rem;">
-                <img src="./images/portfolio-2.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-3">
-            <div class="card" style="width: 18rem;">
-                <img src="./images/portfolio-3.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-            </div>
-        </div>
-    </div> -->
-    <div class="row">
-        <div class="col-md-3">
-        <h2>#Skills</h2>
-        </div>
-        <div class="col-md-9">
+        <div class="col-md-9 d-flex align-items-center justify-content-around">
             <h3>
             <img src="./images/html.png" alt="..." class="rounded-lg rounded-0 small-logo">
             Html</h3>
@@ -116,19 +90,20 @@
             CSS</h3>
         </div>
     </div>
-    <div class="row">
-        <div class="col-md-3">
-        <h2>#Contact</h2>
+    <div class="row p-5">
+        <div class="col-md-3 d-flex align-items-center justify-content-center">
+            <h2 id="contact">#Contact</h2>
         </div>
-        <div class="col-md-9">
-            <a href="https://github.com/WloMac/"><img src="./images/github.png" alt="..." class="rounded-sm small-logo"></a>
-            <img src="./images/linkedin.png" alt="..." class="rounded-sm small-logo">
+        <div class="col-md-9 d-flex align-items-center justify-content-around"  >
+            <a href="https://github.com/WloMac/"><img class="small-logo" src="./images/github.png" alt="..." ></a>
+            <a href="https://www.linkedin.com/in/wlodzimierz-maciaszczyk-09341b1b8/"><img class="small-logo" src="./images/linkedin.png" alt="..."></a>
+            <a href="mailto:name@email.com"><img class="small-logo" src="./images/mail.png" alt="..."></a>
         </div>
     </div>
-
-
     </main>
-
+    <footer>
+        <h6>Logo <a href="https://www.freepik.com">designed by Rawpixel.com - Freepik.com</a>; Web developed by Wlodzimierz Maciaszczyk 2022</h6>
+        </footer>
 
 
 
